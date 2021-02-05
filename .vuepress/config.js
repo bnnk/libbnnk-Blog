@@ -1,6 +1,6 @@
 module.exports = {
-  title: "<TITLE>", // replace with site title
-  description: "<DESCRIPTION>", // replace with site description
+  title: "BK Shrinandhan's Blog", // replace with site title
+  description: "My personal blog built with love in India", // replace with site description
   theme: "modern-blog",
   themeConfig: {
     // these values will be injected to the head element in each page
@@ -47,12 +47,8 @@ module.exports = {
         "<BIO>"
     },
     
-    disqus: "<DISQUS SITE ID>", // for comments, visit https://disqus.com/ for more info.
-    
-    googleAnalytics: "<GOOGLE ANALYTICS ID>", // for site analytics, visit https://analytics.google.com/analytics/web/ for more information.
-    
     sitemap: true, // auto generate site map for your site for better SEO.
-    hostname: "<YOUR SITE DOMAIN NAME>", // required for site map.
+    hostname: "libbnnk-blog.netlify.app", // required for site map.
 
     socialShare: true,
     socialShareNetworks: ["twitter", "facebook"],
