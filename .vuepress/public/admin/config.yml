@@ -9,7 +9,7 @@ media_folder: '.vuepress/public' # Folder where user uploaded files should go
 publish_mode: editorial_workflow
 show_preview_links: true
 
-collections:
+# collections:
 #   - name: 'blogPost' # Used in routes, e.g., /admin/collections/blog
 #     label: 'Blog Post' # Used in the UI
 #     folder: '/_posts' # The path to the folder where the documents are stored
