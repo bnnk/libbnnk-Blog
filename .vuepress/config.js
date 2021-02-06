@@ -48,7 +48,7 @@ module.exports = {
     },
     
     sitemap: true, // auto generate site map for your site for better SEO.
-    hostname: "libbnnk-blog.netlify.app", // required for site map.
+    hostname: "http:/libbnnk-blog.netlify.app", // required for site map.
 
     socialShare: true,
     socialShareNetworks: ["twitter", "facebook"],
