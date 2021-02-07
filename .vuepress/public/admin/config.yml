@@ -1,4 +1,3 @@
-  
 backend:
   name: git-gateway
   branch: master # Branch to update (master by default)
@@ -10,29 +9,29 @@ publish_mode: editorial_workflow
 show_preview_links: true
 
 collections:
-  - name: 'blogpost' # Used in routes
-    label: 'Blog Post' # Used in the UI
-    folder: '/_posts' # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Publish Date', name: 'date', widget: 'datetime'}
-      - {label: 'Image', name: 'image', widget: 'image'}
-      - {label: 'Author', name: 'author', widget: 'string'}
-      - {label: "Location", name: "location", widget: "map" }
-      - {label: 'Tags', name: 'tags', widget: 'list', default: ['some tag']}
-      - {label: 'Description', name: 'description', widget: 'markdown'}
-      - {label: 'Body', name: 'body', widget: 'markdown'}
+ - name: 'blogpost' # Used in routes
+   label: 'Blog Post' # Used in the UI
+   folder: '/_posts' # The path to the folder where the documents are stored
+   create: true # Allow users to create new documents in this collection
+   slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+   fields: # The fields for each document, usually in front matter
+     - {label: 'Title', name: 'title', widget: 'string'}
+     - {label: 'Publish Date', name: 'date', widget: 'datetime'}
+     - {label: 'Image', name: 'image', widget: 'image'}
+     - {label: 'Author', name: 'author', widget: 'string'}
+     - {label: "Location", name: "location", widget: "string" }
+     - {label: 'Tags', name: 'tags', widget: 'list', default: ['some tag']}
+     - {label: 'Description', name: 'description', widget: 'markdown'}
+     - {label: 'Body', name: 'body', widget: 'markdown'}
       
-   - name: 'project' # Used in routes, e.g
-     label: 'Project' # Used in the UI
-     folder: '/_projects' # The path to the folder where the documents are stored
-     create: true # Allow users to create new documents in this collection
-     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-     fields: # The fields for each document, usually in front matter
-       - {label: 'Title', name: 'title', widget: 'string'}
-       - {label: 'Github URL', name: 'github', widget: 'string'}
-       - {label: 'Languages', name: 'languages', widget: 'list', default: ['Python']}
-       - {label: 'Description', name: 'description', widget: 'markdown'}
-       - {label: 'Body', name: 'body', widget: 'markdown'}
+ - name: 'project' # Used in routes, e.g
+   label: 'Project' # Used in the UI
+   folder: '/_projects' # The path to the folder where the documents are stored
+   create: true # Allow users to create new documents in this collection
+   slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+   fields: # The fields for each document, usually in front matter
+     - {label: 'Title', name: 'title', widget: 'string'}
+     - {label: 'Github URL', name: 'github', widget: 'string'}
+     - {label: 'Languages', name: 'languages', widget : 'list', default: ['Python']}
+     - {label: 'Description', name: 'description', widget: 'markdown'}
+     - {label: 'Body', name: 'body', widget: 'markdown'}
