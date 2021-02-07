@@ -1,7 +1,7 @@
 ---
 title: A Blog Post
 date: 2021-04-22T03:44:32.387Z
-image: /.vuepress/public/dseifert_200803_4125_0006.0.0.jpg
+image: /dseifert_200803_4125_0006.0.0.jpg
 author: BK Shrinandhan
 location: Chennai
 tags:
