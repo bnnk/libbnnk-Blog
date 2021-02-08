@@ -95,10 +95,11 @@ module.exports = {
   },
 
   plugins: [
-    [
-      'crisp', {
-        siteID: "<CRISP SITE ID>" // visit https://crisp.chat/en/ for more or remove this plugin to disable it.
-      }
-    ]
+    "vuepress-plugin-mermaidjs",
+    "vuepress-plugin-rocket",
+    "vuepress-plugin-code-switcher",
+    "vuepress-plugin-demo-code",
+    "vuepress-plugin-code-copy",
+    "vuepress-plugin-viewer"
   ]
 };
